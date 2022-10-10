@@ -49,7 +49,7 @@ export function Footer() {
         >
           <Grid item>
             <Link
-              href="https://dexkit.com/contact-us/"
+              href="https://GOOGLE.COM/"
               color="inherit"
               target="_blank"
             >
@@ -70,21 +70,21 @@ export function Footer() {
                 id="is.powered.by"
                 description="is powered by"
               />{' '}
-              <Link variant="inherit" href="https://0x.org/" color="inherit">
-                <strong>0x</strong>
+              <Link variant="inherit" href="https://google.com/" color="inherit">
+                <strong>WHIZ</strong>
               </Link>{' '}
               <FormattedMessage
                 id="and.made.with.love.by"
-                defaultMessage="and made with ❤️ by"
-                description="and made with ❤️ by"
+                defaultMessage="and made with ❤️ "
+                description="and made with ❤️ "
               />{' '}
               <Link
                 variant="inherit"
-                href="https://www.dexkit.com"
+                href="https://www.google.com"
                 target="_blank"
                 color="inherit"
               >
-                <strong>DexKit</strong>
+                <strong>THE BLOCK</strong>
               </Link>
             </Typography>
           </Grid>

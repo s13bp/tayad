@@ -11,10 +11,10 @@
     },
     {
       "image": "/assets/kittygotchi/1.png",
-      "name": "Test inu ",
+      "name": "BHARAJ",
       "backgroundImage": "/assets/kittygotchi/2.png",
       "chainId": 80001,
-      "contractAddress": "0xf0D9409efEb65010c69d9dA59270De0bC8942dbd",
+      "contractAddress": "0xba364c8945dfb91e7e89a039e0c9b6c2b3c4b17b",
       "description": "",
       "uri": "testinupoly"
     }

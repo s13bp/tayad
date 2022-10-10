@@ -1,5 +1,5 @@
 {
-  "name": "Kittygotchi",
+  "name": "TheOnlyBlockchain",
   "locale": "en-US",
   "currency": "usd",
   "theme": "kittygotchi",
@@ -193,26 +193,26 @@
       "sections": [
         {
           "type": "featured",
-          "title": "Kittygotchi Marketplace",
+          "title": "TheOnlyBlockchain Marketplace",
           "items": [
             {
               "type": "asset",
-              "chainId": 137,
-              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
-              "tokenId": "42"
+              "chainId": 80001,
+              "contractAddress": "0xba364c8945dfb91e7e89a039e0c9b6c2b3c4b17b",
+              "tokenId": "3"
             },
             {
               "type": "asset",
-              "chainId": 137,
-              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
-              "tokenId": "50"
+              "chainId": 80001,
+              "contractAddress": "0xba364c8945dfb91e7e89a039e0c9b6c2b3c4b17b",
+              "tokenId": "2"
             },
             {
               "type": "collection",
-              "title": "Kittygotchi",
-              "chainId": 137,
-              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
-              "backgroundImageUrl": "/assets/kittygotchi/banner.svg"
+              "title": "testinu",
+              "chainId": 80001,
+              "contractAddress": "0xba364c8945dfb91e7e89a039e0c9b6c2b3c4b17b",
+              "backgroundImageUrl": "/assets/kittygotchi/1.png"
             }
           ]
         },
@@ -223,9 +223,9 @@
             {
               "featured": true,
               "type": "collection",
-              "title": "Kittygotchi",
-              "chainId": 137,
-              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
+              "title": "testinu",
+              "chainId": 80001,
+              "contractAddress": "0xf0d9409efeb65010c69d9da59270de0bc8942dbd",
               "backgroundImageUrl": "/assets/kittygotchi/banner_polygon.svg"
             },
             {
@@ -253,8 +253,8 @@
         {
           "variant": "dark",
           "type": "call-to-action",
-          "title": "Kittygotchi",
-          "subtitle": "See your kitties on ETH, BSC and Polygon networks",
+          "title": "InuTest",
+          "subtitle": "See your Inu on ETH, BSC and Polygon networks",
           "button": {
             "title": "See all",
             "url": "/collections"
@@ -262,15 +262,15 @@
           "items": [
             {
               "type": "asset",
-              "chainId": 137,
-              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
-              "tokenId": "42"
+              "chainId": 80001,
+              "contractAddress": "0xba364c8945dfb91e7e89a039e0c9b6c2b3c4b17b",
+              "tokenId": "2"
             },
             {
               "type": "asset",
-              "chainId": 137,
-              "contractAddress": "0xEA88540adb1664999524d1a698cb84F6C922D2A1",
-              "tokenId": "50"
+              "chainId": 80001,
+              "contractAddress": "0xba364c8945dfb91e7e89a039e0c9b6c2b3c4b17b",
+              "tokenId": "1"
             }
           ]
         }
@@ -279,8 +279,8 @@
   },
   "seo": {
     "home": {
-      "title": "Kittygotchi",
-      "description": "Kittygochi collection: create cute Kitty, make it unique, feed him to earn attack, speed, and defense, he will be here for you. Your Kitty gives you special powers on DexKit Dashboard"
+      "title": "ThOnlyBlockchain",
+      "description": "seo bullshit here"
     }
   }
 }
