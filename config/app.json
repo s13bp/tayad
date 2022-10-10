@@ -1,5 +1,5 @@
 {
-  "name": "TheOnlyBlockchain",
+  "name": "TheOnlyMarketplace",
   "locale": "en-US",
   "currency": "usd",
   "theme": "kittygotchi",
@@ -202,7 +202,7 @@
       "sections": [
         {
           "type": "featured",
-          "title": "TheOnlyBlockchain Marketplace",
+          "title": "TheOnlyMarketplace Marketplace",
           "items": [
             {
               "type": "asset",
@@ -256,7 +256,7 @@
         {
           "type": "video",
           "title": "Marketplace Features",
-          "videoUrl": "https://www.youtube.com/embed/9UxtgAkNG1k",
+          "videoUrl": "https://www.youtube.com/embed/xxzBTdZJm9Q",
           "embedType": "youtube"
         },
         {
@@ -288,7 +288,7 @@
   },
   "seo": {
     "home": {
-      "title": "ThOnlyBlockchain",
+      "title": "TheOnlyMarketplace",
       "description": "seo bullshit here"
     }
   }
