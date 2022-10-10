@@ -56,6 +56,15 @@
       "tags": ["polygon", "wrapped token"]
     },
     {
+      "chainId": 80001,
+      "address": "0xB45F272e894B29faB997557d2F644D40A2FCed2d",
+      "symbol": "WhizCoin",
+      "name": "SBP",
+      "decimals": 18,
+      "logoURI": "https://polygonscan.com/token/images/wMatic_32.png",
+      "tags": ["polygon", "wrapped token"]
+    },
+    {
       "chainId": 137,
       "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
       "symbol": "USDC",

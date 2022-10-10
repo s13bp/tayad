@@ -84,27 +84,7 @@ export function ConfirmBuyDialog({
     return false;
   }, [erc20Balance, tokens, order]);
 
-  const coinPricesQuery = useCoinPricesQuery({ includeNative: true });
 
-  const totalInCurrency = useMemo(() => {
-    if (token && currency && order) {
-      if (coinPricesQuery?.data) {
-        const ratio =
-          coinPricesQuery.data[token.address.toLowerCase()][currency];
-
-        if (ratio) {
-          return (
-            ratio *
-            parseFloat(
-              ethers.utils.formatUnits(order?.erc20TokenAmount, token.decimals)
-            )
-          );
-        } else {
-          return 0;
-        }
-      }
-    }
-  }, [token, coinPricesQuery, currency, order]);
 
   return (
     <Dialog {...dialogProps}>
@@ -186,26 +166,7 @@ export function ConfirmBuyDialog({
                         )}{' '}
                         {token?.symbol}
                       </Typography>
-                      {totalInCurrency !== undefined && (
-                        <Chip
-                          size="small"
-                          label={
-                            <Typography variant="caption">
-                              {totalInCurrency ? (
-                                <>
-                                  <FormattedNumber
-                                    value={totalInCurrency}
-                                    currency={currency}
-                                  />{' '}
-                                  {currency.toUpperCase()}
-                                </>
-                              ) : (
-                                <Skeleton />
-                              )}
-                            </Typography>
-                          }
-                        />
-                      )}
+                   
                     </Stack>
                   </Paper>
                 </Stack>
